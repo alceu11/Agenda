@@ -116,7 +116,7 @@ var consultarContactos = function() {
 
 
       htmlCuerpoTabla += "<td>";
-      htmlCuerpoTabla += "<button class='btn-editar' data-id-contacto='  " + contacto._id + "'>Editar</button>";
+      htmlCuerpoTabla += "<button class='btn-editar' data-id-contacto='" + contacto._id + "'>Editar</button>";
       htmlCuerpoTabla += "</td>";
 
       //Nuevo botón
